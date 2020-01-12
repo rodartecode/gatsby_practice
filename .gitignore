@@ -67,3 +67,35 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Coverage directory used by tools like istanbul
+coverage
+junit.xml
+
+# Build Path of Test Fixtures
+test/**/public
+.gatsby-context.js
+.DS_Store
+public/
+node_modules/
+.cache/
+.netlify
+
+# IDE specific
+.idea/
+.vscode/
+*.sw*
+# misc
+.serverless/
+.eslintcache
+
+# lock files
+yarn.lock
+package-lock.json
+
+# starters are special; we want to persist the lock files
+!starters/*/package-lock.json
+!themes/gatsby-starter-blog-theme/package-lock.json
+!themes/gatsby-starter-notes-theme/package-lock.json
+!themes/gatsby-starter-theme/package-lock.json
+!themes/gatsby-starter-theme-workspace/package-lock.json
